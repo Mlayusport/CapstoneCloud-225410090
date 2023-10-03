@@ -1,0 +1,72 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Gaya header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Gaya profil */
+.profile {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px darkslategray;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 300px;
+    width: 320px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Gaya tautan sosial media */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+    
+}
